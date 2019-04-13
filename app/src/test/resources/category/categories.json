@@ -1,0 +1,1936 @@
+{
+  "resources": [
+    {
+      "id": 441988,
+      "resource_uri": "/v2/categories/441988",
+      "resource_type": "category",
+      "name": "TVA",
+      "parent": {
+        "id": 159,
+        "resource_uri": "/v2/categories/159",
+        "resource_type": "category"
+      },
+      "custom": false,
+      "other": false,
+      "is_deleted": false
+    },
+    {
+      "id": 441900,
+      "resource_uri": "/v2/categories/441900",
+      "resource_type": "category",
+      "name": "Marketing",
+      "parent": {
+        "id": 166,
+        "resource_uri": "/v2/categories/166",
+        "resource_type": "category"
+      },
+      "custom": false,
+      "other": false,
+      "is_deleted": false
+    },
+    {
+      "id": 441899,
+      "resource_uri": "/v2/categories/441899",
+      "resource_type": "category",
+      "name": "Frais juridique",
+      "parent": {
+        "id": 166,
+        "resource_uri": "/v2/categories/166",
+        "resource_type": "category"
+      },
+      "custom": false,
+      "other": false,
+      "is_deleted": false
+    },
+    {
+      "id": 441898,
+      "resource_uri": "/v2/categories/441898",
+      "resource_type": "category",
+      "name": "Taxe d'apprentissage",
+      "parent": {
+        "id": 166,
+        "resource_uri": "/v2/categories/166",
+        "resource_type": "category"
+      },
+      "custom": false,
+      "other": false,
+      "is_deleted": false
+    },
+    {
+      "id": 441897,
+      "resource_uri": "/v2/categories/441897",
+      "resource_type": "category",
+      "name": "Prévoyance",
+      "parent": {
+        "id": 166,
+        "resource_uri": "/v2/categories/166",
+        "resource_type": "category"
+      },
+      "custom": false,
+      "other": false,
+      "is_deleted": false
+    },
+    {
+      "id": 441896,
+      "resource_uri": "/v2/categories/441896",
+      "resource_type": "category",
+      "name": "Sous-traitance",
+      "parent": {
+        "id": 166,
+        "resource_uri": "/v2/categories/166",
+        "resource_type": "category"
+      },
+      "custom": false,
+      "other": false,
+      "is_deleted": false
+    },
+    {
+      "id": 441895,
+      "resource_uri": "/v2/categories/441895",
+      "resource_type": "category",
+      "name": "Conseils",
+      "parent": {
+        "id": 166,
+        "resource_uri": "/v2/categories/166",
+        "resource_type": "category"
+      },
+      "custom": false,
+      "other": false,
+      "is_deleted": false
+    },
+    {
+      "id": 441894,
+      "resource_uri": "/v2/categories/441894",
+      "resource_type": "category",
+      "name": "Emprunt",
+      "parent": {
+        "id": 2,
+        "resource_uri": "/v2/categories/2",
+        "resource_type": "category"
+      },
+      "custom": false,
+      "other": false,
+      "is_deleted": false
+    },
+    {
+      "id": 441893,
+      "resource_uri": "/v2/categories/441893",
+      "resource_type": "category",
+      "name": "Subventions",
+      "parent": {
+        "id": 2,
+        "resource_uri": "/v2/categories/2",
+        "resource_type": "category"
+      },
+      "custom": false,
+      "other": false,
+      "is_deleted": false
+    },
+    {
+      "id": 441892,
+      "resource_uri": "/v2/categories/441892",
+      "resource_type": "category",
+      "name": "Frais de recrutement",
+      "parent": {
+        "id": 166,
+        "resource_uri": "/v2/categories/166",
+        "resource_type": "category"
+      },
+      "custom": false,
+      "other": false,
+      "is_deleted": false
+    },
+    {
+      "id": 441891,
+      "resource_uri": "/v2/categories/441891",
+      "resource_type": "category",
+      "name": "Rémunérations dirigeants",
+      "parent": {
+        "id": 166,
+        "resource_uri": "/v2/categories/166",
+        "resource_type": "category"
+      },
+      "custom": false,
+      "other": false,
+      "is_deleted": false
+    },
+    {
+      "id": 441890,
+      "resource_uri": "/v2/categories/441890",
+      "resource_type": "category",
+      "name": "Salaires",
+      "parent": {
+        "id": 166,
+        "resource_uri": "/v2/categories/166",
+        "resource_type": "category"
+      },
+      "custom": false,
+      "other": false,
+      "is_deleted": false
+    },
+    {
+      "id": 441889,
+      "resource_uri": "/v2/categories/441889",
+      "resource_type": "category",
+      "name": "Comptabilité",
+      "parent": {
+        "id": 166,
+        "resource_uri": "/v2/categories/166",
+        "resource_type": "category"
+      },
+      "custom": false,
+      "other": false,
+      "is_deleted": false
+    },
+    {
+      "id": 441888,
+      "resource_uri": "/v2/categories/441888",
+      "resource_type": "category",
+      "name": "Licenses",
+      "parent": {
+        "id": 162,
+        "resource_uri": "/v2/categories/162",
+        "resource_type": "category"
+      },
+      "custom": false,
+      "other": false,
+      "is_deleted": false
+    },
+    {
+      "id": 441886,
+      "resource_uri": "/v2/categories/441886",
+      "resource_type": "category",
+      "name": "Cotisations Sociales",
+      "parent": {
+        "id": 166,
+        "resource_uri": "/v2/categories/166",
+        "resource_type": "category"
+      },
+      "custom": false,
+      "other": false,
+      "is_deleted": false
+    },
+    {
+      "id": 328,
+      "resource_uri": "/v2/categories/328",
+      "resource_type": "category",
+      "name": "Charges diverses",
+      "parent": {
+        "id": 161,
+        "resource_uri": "/v2/categories/161",
+        "resource_type": "category"
+      },
+      "custom": false,
+      "other": false,
+      "is_deleted": false
+    },
+    {
+      "id": 327,
+      "resource_uri": "/v2/categories/327",
+      "resource_type": "category",
+      "name": "Allocations et pensions",
+      "parent": {
+        "id": 2,
+        "resource_uri": "/v2/categories/2",
+        "resource_type": "category"
+      },
+      "custom": false,
+      "other": false,
+      "is_deleted": false
+    },
+    {
+      "id": 326,
+      "resource_uri": "/v2/categories/326",
+      "resource_type": "category",
+      "name": "Virements internes",
+      "parent": {
+        "id": 303,
+        "resource_uri": "/v2/categories/303",
+        "resource_type": "category"
+      },
+      "custom": false,
+      "other": false,
+      "is_deleted": false
+    },
+    {
+      "id": 325,
+      "resource_uri": "/v2/categories/325",
+      "resource_type": "category",
+      "name": "Dentiste",
+      "parent": {
+        "id": 163,
+        "resource_uri": "/v2/categories/163",
+        "resource_type": "category"
+      },
+      "custom": false,
+      "other": false,
+      "is_deleted": false
+    },
+    {
+      "id": 324,
+      "resource_uri": "/v2/categories/324",
+      "resource_type": "category",
+      "name": "Pressing",
+      "parent": {
+        "id": 160,
+        "resource_uri": "/v2/categories/160",
+        "resource_type": "category"
+      },
+      "custom": false,
+      "other": false,
+      "is_deleted": false
+    },
+    {
+      "id": 323,
+      "resource_uri": "/v2/categories/323",
+      "resource_type": "category",
+      "name": "Extérieur et jardin",
+      "parent": {
+        "id": 161,
+        "resource_uri": "/v2/categories/161",
+        "resource_type": "category"
+      },
+      "custom": false,
+      "other": false,
+      "is_deleted": false
+    },
+    {
+      "id": 322,
+      "resource_uri": "/v2/categories/322",
+      "resource_type": "category",
+      "name": "Opticien / Ophtalmo.",
+      "parent": {
+        "id": 163,
+        "resource_uri": "/v2/categories/163",
+        "resource_type": "category"
+      },
+      "custom": false,
+      "other": false,
+      "is_deleted": false
+    },
+    {
+      "id": 321,
+      "resource_uri": "/v2/categories/321",
+      "resource_type": "category",
+      "name": "Esthétique",
+      "parent": {
+        "id": 315,
+        "resource_uri": "/v2/categories/315",
+        "resource_type": "category"
+      },
+      "custom": false,
+      "other": false,
+      "is_deleted": false
+    },
+    {
+      "id": 320,
+      "resource_uri": "/v2/categories/320",
+      "resource_type": "category",
+      "name": "Sortie au restaurant",
+      "parent": {
+        "id": 170,
+        "resource_uri": "/v2/categories/170",
+        "resource_type": "category"
+      },
+      "custom": false,
+      "other": false,
+      "is_deleted": false
+    },
+    {
+      "id": 319,
+      "resource_uri": "/v2/categories/319",
+      "resource_type": "category",
+      "name": "Films & DVDs",
+      "parent": {
+        "id": 162,
+        "resource_uri": "/v2/categories/162",
+        "resource_type": "category"
+      },
+      "custom": false,
+      "other": false,
+      "is_deleted": false
+    },
+    {
+      "id": 318,
+      "resource_uri": "/v2/categories/318",
+      "resource_type": "category",
+      "name": "Musique",
+      "parent": {
+        "id": 162,
+        "resource_uri": "/v2/categories/162",
+        "resource_type": "category"
+      },
+      "custom": false,
+      "other": false,
+      "is_deleted": false
+    },
+    {
+      "id": 317,
+      "resource_uri": "/v2/categories/317",
+      "resource_type": "category",
+      "name": "Esthétique & Soins - Autres",
+      "parent": {
+        "id": 315,
+        "resource_uri": "/v2/categories/315",
+        "resource_type": "category"
+      },
+      "custom": false,
+      "other": false,
+      "is_deleted": false
+    },
+    {
+      "id": 316,
+      "resource_uri": "/v2/categories/316",
+      "resource_type": "category",
+      "name": "Spa & Massage",
+      "parent": {
+        "id": 315,
+        "resource_uri": "/v2/categories/315",
+        "resource_type": "category"
+      },
+      "custom": false,
+      "other": false,
+      "is_deleted": false
+    },
+    {
+      "id": 315,
+      "resource_uri": "/v2/categories/315",
+      "resource_type": "category",
+      "name": "Esthétique & Soins",
+      "parent": null,
+      "custom": false,
+      "other": false,
+      "is_deleted": false
+    },
+    {
+      "id": 314,
+      "resource_uri": "/v2/categories/314",
+      "resource_type": "category",
+      "name": "Loyers reçus",
+      "parent": {
+        "id": 2,
+        "resource_uri": "/v2/categories/2",
+        "resource_type": "category"
+      },
+      "custom": false,
+      "other": false,
+      "is_deleted": false
+    },
+    {
+      "id": 313,
+      "resource_uri": "/v2/categories/313",
+      "resource_type": "category",
+      "name": "Café",
+      "parent": {
+        "id": 168,
+        "resource_uri": "/v2/categories/168",
+        "resource_type": "category"
+      },
+      "custom": false,
+      "other": false,
+      "is_deleted": false
+    },
+    {
+      "id": 310,
+      "resource_uri": "/v2/categories/310",
+      "resource_type": "category",
+      "name": "Sports d'hiver",
+      "parent": {
+        "id": 170,
+        "resource_uri": "/v2/categories/170",
+        "resource_type": "category"
+      },
+      "custom": false,
+      "other": false,
+      "is_deleted": false
+    },
+    {
+      "id": 309,
+      "resource_uri": "/v2/categories/309",
+      "resource_type": "category",
+      "name": "Péage",
+      "parent": {
+        "id": 165,
+        "resource_uri": "/v2/categories/165",
+        "resource_type": "category"
+      },
+      "custom": false,
+      "other": false,
+      "is_deleted": false
+    },
+    {
+      "id": 308,
+      "resource_uri": "/v2/categories/308",
+      "resource_type": "category",
+      "name": "Tabac",
+      "parent": {
+        "id": 160,
+        "resource_uri": "/v2/categories/160",
+        "resource_type": "category"
+      },
+      "custom": false,
+      "other": false,
+      "is_deleted": false
+    },
+    {
+      "id": 306,
+      "resource_uri": "/v2/categories/306",
+      "resource_type": "category",
+      "name": "Services Bancaires",
+      "parent": {
+        "id": 164,
+        "resource_uri": "/v2/categories/164",
+        "resource_type": "category"
+      },
+      "custom": false,
+      "other": false,
+      "is_deleted": false
+    },
+    {
+      "id": 303,
+      "resource_uri": "/v2/categories/303",
+      "resource_type": "category",
+      "name": "Retraits, Chq. et Vir.",
+      "parent": null,
+      "custom": false,
+      "other": false,
+      "is_deleted": false
+    },
+    {
+      "id": 302,
+      "resource_uri": "/v2/categories/302",
+      "resource_type": "category",
+      "name": "Taxes",
+      "parent": {
+        "id": 159,
+        "resource_uri": "/v2/categories/159",
+        "resource_type": "category"
+      },
+      "custom": false,
+      "other": false,
+      "is_deleted": false
+    },
+    {
+      "id": 294,
+      "resource_uri": "/v2/categories/294",
+      "resource_type": "category",
+      "name": "Dons",
+      "parent": {
+        "id": 160,
+        "resource_uri": "/v2/categories/160",
+        "resource_type": "category"
+      },
+      "custom": false,
+      "other": false,
+      "is_deleted": false
+    },
+    {
+      "id": 293,
+      "resource_uri": "/v2/categories/293",
+      "resource_type": "category",
+      "name": "Eau",
+      "parent": {
+        "id": 161,
+        "resource_uri": "/v2/categories/161",
+        "resource_type": "category"
+      },
+      "custom": false,
+      "other": false,
+      "is_deleted": false
+    },
+    {
+      "id": 289,
+      "resource_uri": "/v2/categories/289",
+      "resource_type": "category",
+      "name": "Economies",
+      "parent": {
+        "id": 2,
+        "resource_uri": "/v2/categories/2",
+        "resource_type": "category"
+      },
+      "custom": false,
+      "other": false,
+      "is_deleted": false
+    },
+    {
+      "id": 288,
+      "resource_uri": "/v2/categories/288",
+      "resource_type": "category",
+      "name": "Entretien véhicule",
+      "parent": {
+        "id": 165,
+        "resource_uri": "/v2/categories/165",
+        "resource_type": "category"
+      },
+      "custom": false,
+      "other": false,
+      "is_deleted": false
+    },
+    {
+      "id": 283,
+      "resource_uri": "/v2/categories/283",
+      "resource_type": "category",
+      "name": "Remboursements",
+      "parent": {
+        "id": 2,
+        "resource_uri": "/v2/categories/2",
+        "resource_type": "category"
+      },
+      "custom": false,
+      "other": false,
+      "is_deleted": false
+    },
+    {
+      "id": 282,
+      "resource_uri": "/v2/categories/282",
+      "resource_type": "category",
+      "name": "Virements internes",
+      "parent": {
+        "id": 2,
+        "resource_uri": "/v2/categories/2",
+        "resource_type": "category"
+      },
+      "custom": false,
+      "other": false,
+      "is_deleted": false
+    },
+    {
+      "id": 280,
+      "resource_uri": "/v2/categories/280",
+      "resource_type": "category",
+      "name": "Abonnements - Autres",
+      "parent": {
+        "id": 171,
+        "resource_uri": "/v2/categories/171",
+        "resource_type": "category"
+      },
+      "custom": false,
+      "other": false,
+      "is_deleted": false
+    },
+    {
+      "id": 279,
+      "resource_uri": "/v2/categories/279",
+      "resource_type": "category",
+      "name": "Retraite",
+      "parent": {
+        "id": 2,
+        "resource_uri": "/v2/categories/2",
+        "resource_type": "category"
+      },
+      "custom": false,
+      "other": false,
+      "is_deleted": false
+    },
+    {
+      "id": 278,
+      "resource_uri": "/v2/categories/278",
+      "resource_type": "category",
+      "name": "Assurance",
+      "parent": {
+        "id": 160,
+        "resource_uri": "/v2/categories/160",
+        "resource_type": "category"
+      },
+      "custom": false,
+      "other": false,
+      "is_deleted": false
+    },
+    {
+      "id": 277,
+      "resource_uri": "/v2/categories/277",
+      "resource_type": "category",
+      "name": "Téléphonie mobile",
+      "parent": {
+        "id": 171,
+        "resource_uri": "/v2/categories/171",
+        "resource_type": "category"
+      },
+      "custom": false,
+      "other": false,
+      "is_deleted": false
+    },
+    {
+      "id": 276,
+      "resource_uri": "/v2/categories/276",
+      "resource_type": "category",
+      "name": "Autres dépenses",
+      "parent": {
+        "id": 160,
+        "resource_uri": "/v2/categories/160",
+        "resource_type": "category"
+      },
+      "custom": false,
+      "other": false,
+      "is_deleted": false
+    },
+    {
+      "id": 274,
+      "resource_uri": "/v2/categories/274",
+      "resource_type": "category",
+      "name": "Fournitures de bureau",
+      "parent": {
+        "id": 166,
+        "resource_uri": "/v2/categories/166",
+        "resource_type": "category"
+      },
+      "custom": false,
+      "other": false,
+      "is_deleted": false
+    },
+    {
+      "id": 273,
+      "resource_uri": "/v2/categories/273",
+      "resource_type": "category",
+      "name": "Supermarché / Epicerie",
+      "parent": {
+        "id": 168,
+        "resource_uri": "/v2/categories/168",
+        "resource_type": "category"
+      },
+      "custom": false,
+      "other": false,
+      "is_deleted": false
+    },
+    {
+      "id": 272,
+      "resource_uri": "/v2/categories/272",
+      "resource_type": "category",
+      "name": "Vêtements/Chaussures",
+      "parent": {
+        "id": 162,
+        "resource_uri": "/v2/categories/162",
+        "resource_type": "category"
+      },
+      "custom": false,
+      "other": false,
+      "is_deleted": false
+    },
+    {
+      "id": 271,
+      "resource_uri": "/v2/categories/271",
+      "resource_type": "category",
+      "name": "Dépôt d'argent",
+      "parent": {
+        "id": 2,
+        "resource_uri": "/v2/categories/2",
+        "resource_type": "category"
+      },
+      "custom": false,
+      "other": false,
+      "is_deleted": false
+    },
+    {
+      "id": 270,
+      "resource_uri": "/v2/categories/270",
+      "resource_type": "category",
+      "name": "Services en ligne",
+      "parent": {
+        "id": 166,
+        "resource_uri": "/v2/categories/166",
+        "resource_type": "category"
+      },
+      "custom": false,
+      "other": false,
+      "is_deleted": false
+    },
+    {
+      "id": 269,
+      "resource_uri": "/v2/categories/269",
+      "resource_type": "category",
+      "name": "Divertissements",
+      "parent": {
+        "id": 170,
+        "resource_uri": "/v2/categories/170",
+        "resource_type": "category"
+      },
+      "custom": false,
+      "other": false,
+      "is_deleted": false
+    },
+    {
+      "id": 268,
+      "resource_uri": "/v2/categories/268",
+      "resource_type": "category",
+      "name": "Santé - Autres",
+      "parent": {
+        "id": 163,
+        "resource_uri": "/v2/categories/163",
+        "resource_type": "category"
+      },
+      "custom": false,
+      "other": false,
+      "is_deleted": false
+    },
+    {
+      "id": 267,
+      "resource_uri": "/v2/categories/267",
+      "resource_type": "category",
+      "name": "Baby-sitters & Crèches",
+      "parent": {
+        "id": 167,
+        "resource_uri": "/v2/categories/167",
+        "resource_type": "category"
+      },
+      "custom": false,
+      "other": false,
+      "is_deleted": false
+    },
+    {
+      "id": 266,
+      "resource_uri": "/v2/categories/266",
+      "resource_type": "category",
+      "name": "Jouets",
+      "parent": {
+        "id": 167,
+        "resource_uri": "/v2/categories/167",
+        "resource_type": "category"
+      },
+      "custom": false,
+      "other": false,
+      "is_deleted": false
+    },
+    {
+      "id": 265,
+      "resource_uri": "/v2/categories/265",
+      "resource_type": "category",
+      "name": "Notes de frais",
+      "parent": {
+        "id": 166,
+        "resource_uri": "/v2/categories/166",
+        "resource_type": "category"
+      },
+      "custom": false,
+      "other": false,
+      "is_deleted": false
+    },
+    {
+      "id": 264,
+      "resource_uri": "/v2/categories/264",
+      "resource_type": "category",
+      "name": "Location de véhicule",
+      "parent": {
+        "id": 165,
+        "resource_uri": "/v2/categories/165",
+        "resource_type": "category"
+      },
+      "custom": false,
+      "other": false,
+      "is_deleted": false
+    },
+    {
+      "id": 263,
+      "resource_uri": "/v2/categories/263",
+      "resource_type": "category",
+      "name": "Hôtels",
+      "parent": {
+        "id": 170,
+        "resource_uri": "/v2/categories/170",
+        "resource_type": "category"
+      },
+      "custom": false,
+      "other": false,
+      "is_deleted": false
+    },
+    {
+      "id": 262,
+      "resource_uri": "/v2/categories/262",
+      "resource_type": "category",
+      "name": "Articles de sport",
+      "parent": {
+        "id": 162,
+        "resource_uri": "/v2/categories/162",
+        "resource_type": "category"
+      },
+      "custom": false,
+      "other": false,
+      "is_deleted": false
+    },
+    {
+      "id": 261,
+      "resource_uri": "/v2/categories/261",
+      "resource_type": "category",
+      "name": "Médecin",
+      "parent": {
+        "id": 163,
+        "resource_uri": "/v2/categories/163",
+        "resource_type": "category"
+      },
+      "custom": false,
+      "other": false,
+      "is_deleted": false
+    },
+    {
+      "id": 260,
+      "resource_uri": "/v2/categories/260",
+      "resource_type": "category",
+      "name": "Fast foods",
+      "parent": {
+        "id": 168,
+        "resource_uri": "/v2/categories/168",
+        "resource_type": "category"
+      },
+      "custom": false,
+      "other": false,
+      "is_deleted": false
+    },
+    {
+      "id": 259,
+      "resource_uri": "/v2/categories/259",
+      "resource_type": "category",
+      "name": "Prêt étudiant",
+      "parent": {
+        "id": 167,
+        "resource_uri": "/v2/categories/167",
+        "resource_type": "category"
+      },
+      "custom": false,
+      "other": false,
+      "is_deleted": false
+    },
+    {
+      "id": 258,
+      "resource_uri": "/v2/categories/258",
+      "resource_type": "category",
+      "name": "Téléphonie fixe",
+      "parent": {
+        "id": 171,
+        "resource_uri": "/v2/categories/171",
+        "resource_type": "category"
+      },
+      "custom": false,
+      "other": false,
+      "is_deleted": false
+    },
+    {
+      "id": 251,
+      "resource_uri": "/v2/categories/251",
+      "resource_type": "category",
+      "name": "Stationnement",
+      "parent": {
+        "id": 165,
+        "resource_uri": "/v2/categories/165",
+        "resource_type": "category"
+      },
+      "custom": false,
+      "other": false,
+      "is_deleted": false
+    },
+    {
+      "id": 249,
+      "resource_uri": "/v2/categories/249",
+      "resource_type": "category",
+      "name": "Voyages / Vacances",
+      "parent": {
+        "id": 170,
+        "resource_uri": "/v2/categories/170",
+        "resource_type": "category"
+      },
+      "custom": false,
+      "other": false,
+      "is_deleted": false
+    },
+    {
+      "id": 248,
+      "resource_uri": "/v2/categories/248",
+      "resource_type": "category",
+      "name": "Cosmétique",
+      "parent": {
+        "id": 315,
+        "resource_uri": "/v2/categories/315",
+        "resource_type": "category"
+      },
+      "custom": false,
+      "other": false,
+      "is_deleted": false
+    },
+    {
+      "id": 247,
+      "resource_uri": "/v2/categories/247",
+      "resource_type": "category",
+      "name": "Assurance véhicule",
+      "parent": {
+        "id": 165,
+        "resource_uri": "/v2/categories/165",
+        "resource_type": "category"
+      },
+      "custom": false,
+      "other": false,
+      "is_deleted": false
+    },
+    {
+      "id": 246,
+      "resource_uri": "/v2/categories/246",
+      "resource_type": "category",
+      "name": "Assurance habitation",
+      "parent": {
+        "id": 161,
+        "resource_uri": "/v2/categories/161",
+        "resource_type": "category"
+      },
+      "custom": false,
+      "other": false,
+      "is_deleted": false
+    },
+    {
+      "id": 245,
+      "resource_uri": "/v2/categories/245",
+      "resource_type": "category",
+      "name": "Mutuelle",
+      "parent": {
+        "id": 163,
+        "resource_uri": "/v2/categories/163",
+        "resource_type": "category"
+      },
+      "custom": false,
+      "other": false,
+      "is_deleted": false
+    },
+    {
+      "id": 244,
+      "resource_uri": "/v2/categories/244",
+      "resource_type": "category",
+      "name": "Sorties culturelles",
+      "parent": {
+        "id": 170,
+        "resource_uri": "/v2/categories/170",
+        "resource_type": "category"
+      },
+      "custom": false,
+      "other": false,
+      "is_deleted": false
+    },
+    {
+      "id": 243,
+      "resource_uri": "/v2/categories/243",
+      "resource_type": "category",
+      "name": "Livres",
+      "parent": {
+        "id": 162,
+        "resource_uri": "/v2/categories/162",
+        "resource_type": "category"
+      },
+      "custom": false,
+      "other": false,
+      "is_deleted": false
+    },
+    {
+      "id": 242,
+      "resource_uri": "/v2/categories/242",
+      "resource_type": "category",
+      "name": "Sport",
+      "parent": {
+        "id": 170,
+        "resource_uri": "/v2/categories/170",
+        "resource_type": "category"
+      },
+      "custom": false,
+      "other": false,
+      "is_deleted": false
+    },
+    {
+      "id": 241,
+      "resource_uri": "/v2/categories/241",
+      "resource_type": "category",
+      "name": "Logement étudiant",
+      "parent": {
+        "id": 167,
+        "resource_uri": "/v2/categories/167",
+        "resource_type": "category"
+      },
+      "custom": false,
+      "other": false,
+      "is_deleted": false
+    },
+    {
+      "id": 240,
+      "resource_uri": "/v2/categories/240",
+      "resource_type": "category",
+      "name": "Pensions",
+      "parent": {
+        "id": 167,
+        "resource_uri": "/v2/categories/167",
+        "resource_type": "category"
+      },
+      "custom": false,
+      "other": false,
+      "is_deleted": false
+    },
+    {
+      "id": 239,
+      "resource_uri": "/v2/categories/239",
+      "resource_type": "category",
+      "name": "Ecole",
+      "parent": {
+        "id": 167,
+        "resource_uri": "/v2/categories/167",
+        "resource_type": "category"
+      },
+      "custom": false,
+      "other": false,
+      "is_deleted": false
+    },
+    {
+      "id": 238,
+      "resource_uri": "/v2/categories/238",
+      "resource_type": "category",
+      "name": "Fournitures scolaires",
+      "parent": {
+        "id": 167,
+        "resource_uri": "/v2/categories/167",
+        "resource_type": "category"
+      },
+      "custom": false,
+      "other": false,
+      "is_deleted": false
+    },
+    {
+      "id": 237,
+      "resource_uri": "/v2/categories/237",
+      "resource_type": "category",
+      "name": "Scolarité & Enfants - Autres",
+      "parent": {
+        "id": 167,
+        "resource_uri": "/v2/categories/167",
+        "resource_type": "category"
+      },
+      "custom": false,
+      "other": false,
+      "is_deleted": false
+    },
+    {
+      "id": 236,
+      "resource_uri": "/v2/categories/236",
+      "resource_type": "category",
+      "name": "Pharmacie",
+      "parent": {
+        "id": 163,
+        "resource_uri": "/v2/categories/163",
+        "resource_type": "category"
+      },
+      "custom": false,
+      "other": false,
+      "is_deleted": false
+    },
+    {
+      "id": 235,
+      "resource_uri": "/v2/categories/235",
+      "resource_type": "category",
+      "name": "Coiffeur",
+      "parent": {
+        "id": 315,
+        "resource_uri": "/v2/categories/315",
+        "resource_type": "category"
+      },
+      "custom": false,
+      "other": false,
+      "is_deleted": false
+    },
+    {
+      "id": 233,
+      "resource_uri": "/v2/categories/233",
+      "resource_type": "category",
+      "name": "Extra",
+      "parent": {
+        "id": 2,
+        "resource_uri": "/v2/categories/2",
+        "resource_type": "category"
+      },
+      "custom": false,
+      "other": false,
+      "is_deleted": false
+    },
+    {
+      "id": 232,
+      "resource_uri": "/v2/categories/232",
+      "resource_type": "category",
+      "name": "Services",
+      "parent": {
+        "id": 2,
+        "resource_uri": "/v2/categories/2",
+        "resource_type": "category"
+      },
+      "custom": false,
+      "other": false,
+      "is_deleted": false
+    },
+    {
+      "id": 231,
+      "resource_uri": "/v2/categories/231",
+      "resource_type": "category",
+      "name": "Ventes",
+      "parent": {
+        "id": 2,
+        "resource_uri": "/v2/categories/2",
+        "resource_type": "category"
+      },
+      "custom": false,
+      "other": false,
+      "is_deleted": false
+    },
+    {
+      "id": 230,
+      "resource_uri": "/v2/categories/230",
+      "resource_type": "category",
+      "name": "Salaires",
+      "parent": {
+        "id": 2,
+        "resource_uri": "/v2/categories/2",
+        "resource_type": "category"
+      },
+      "custom": false,
+      "other": false,
+      "is_deleted": false
+    },
+    {
+      "id": 227,
+      "resource_uri": "/v2/categories/227",
+      "resource_type": "category",
+      "name": "Bars / Clubs",
+      "parent": {
+        "id": 170,
+        "resource_uri": "/v2/categories/170",
+        "resource_type": "category"
+      },
+      "custom": false,
+      "other": false,
+      "is_deleted": false
+    },
+    {
+      "id": 226,
+      "resource_uri": "/v2/categories/226",
+      "resource_type": "category",
+      "name": "Hobbies",
+      "parent": {
+        "id": 170,
+        "resource_uri": "/v2/categories/170",
+        "resource_type": "category"
+      },
+      "custom": false,
+      "other": false,
+      "is_deleted": false
+    },
+    {
+      "id": 224,
+      "resource_uri": "/v2/categories/224",
+      "resource_type": "category",
+      "name": "Frais Animaux",
+      "parent": {
+        "id": 170,
+        "resource_uri": "/v2/categories/170",
+        "resource_type": "category"
+      },
+      "custom": false,
+      "other": false,
+      "is_deleted": false
+    },
+    {
+      "id": 223,
+      "resource_uri": "/v2/categories/223",
+      "resource_type": "category",
+      "name": "Loisirs & Sorties - Autres",
+      "parent": {
+        "id": 170,
+        "resource_uri": "/v2/categories/170",
+        "resource_type": "category"
+      },
+      "custom": false,
+      "other": false,
+      "is_deleted": false
+    },
+    {
+      "id": 222,
+      "resource_uri": "/v2/categories/222",
+      "resource_type": "category",
+      "name": "Entretien",
+      "parent": {
+        "id": 161,
+        "resource_uri": "/v2/categories/161",
+        "resource_type": "category"
+      },
+      "custom": false,
+      "other": false,
+      "is_deleted": false
+    },
+    {
+      "id": 221,
+      "resource_uri": "/v2/categories/221",
+      "resource_type": "category",
+      "name": "Décoration",
+      "parent": {
+        "id": 161,
+        "resource_uri": "/v2/categories/161",
+        "resource_type": "category"
+      },
+      "custom": false,
+      "other": false,
+      "is_deleted": false
+    },
+    {
+      "id": 220,
+      "resource_uri": "/v2/categories/220",
+      "resource_type": "category",
+      "name": "Logement - Autres",
+      "parent": {
+        "id": 161,
+        "resource_uri": "/v2/categories/161",
+        "resource_type": "category"
+      },
+      "custom": false,
+      "other": false,
+      "is_deleted": false
+    },
+    {
+      "id": 219,
+      "resource_uri": "/v2/categories/219",
+      "resource_type": "category",
+      "name": "Câble / Satellite",
+      "parent": {
+        "id": 171,
+        "resource_uri": "/v2/categories/171",
+        "resource_type": "category"
+      },
+      "custom": false,
+      "other": false,
+      "is_deleted": false
+    },
+    {
+      "id": 218,
+      "resource_uri": "/v2/categories/218",
+      "resource_type": "category",
+      "name": "Gaz",
+      "parent": {
+        "id": 161,
+        "resource_uri": "/v2/categories/161",
+        "resource_type": "category"
+      },
+      "custom": false,
+      "other": false,
+      "is_deleted": false
+    },
+    {
+      "id": 217,
+      "resource_uri": "/v2/categories/217",
+      "resource_type": "category",
+      "name": "Electricité",
+      "parent": {
+        "id": 161,
+        "resource_uri": "/v2/categories/161",
+        "resource_type": "category"
+      },
+      "custom": false,
+      "other": false,
+      "is_deleted": false
+    },
+    {
+      "id": 216,
+      "resource_uri": "/v2/categories/216",
+      "resource_type": "category",
+      "name": "Loyer",
+      "parent": {
+        "id": 161,
+        "resource_uri": "/v2/categories/161",
+        "resource_type": "category"
+      },
+      "custom": false,
+      "other": false,
+      "is_deleted": false
+    },
+    {
+      "id": 209,
+      "resource_uri": "/v2/categories/209",
+      "resource_type": "category",
+      "name": "Impôts fonciers",
+      "parent": {
+        "id": 159,
+        "resource_uri": "/v2/categories/159",
+        "resource_type": "category"
+      },
+      "custom": false,
+      "other": false,
+      "is_deleted": false
+    },
+    {
+      "id": 208,
+      "resource_uri": "/v2/categories/208",
+      "resource_type": "category",
+      "name": "Impôts sur le revenu",
+      "parent": {
+        "id": 159,
+        "resource_uri": "/v2/categories/159",
+        "resource_type": "category"
+      },
+      "custom": false,
+      "other": false,
+      "is_deleted": false
+    },
+    {
+      "id": 207,
+      "resource_uri": "/v2/categories/207",
+      "resource_type": "category",
+      "name": "Amendes",
+      "parent": {
+        "id": 159,
+        "resource_uri": "/v2/categories/159",
+        "resource_type": "category"
+      },
+      "custom": false,
+      "other": false,
+      "is_deleted": false
+    },
+    {
+      "id": 206,
+      "resource_uri": "/v2/categories/206",
+      "resource_type": "category",
+      "name": "Impôts & Taxes - Autres",
+      "parent": {
+        "id": 159,
+        "resource_uri": "/v2/categories/159",
+        "resource_type": "category"
+      },
+      "custom": false,
+      "other": false,
+      "is_deleted": false
+    },
+    {
+      "id": 205,
+      "resource_uri": "/v2/categories/205",
+      "resource_type": "category",
+      "name": "Frais d'impressions",
+      "parent": {
+        "id": 166,
+        "resource_uri": "/v2/categories/166",
+        "resource_type": "category"
+      },
+      "custom": false,
+      "other": false,
+      "is_deleted": false
+    },
+    {
+      "id": 204,
+      "resource_uri": "/v2/categories/204",
+      "resource_type": "category",
+      "name": "Frais d'expéditions",
+      "parent": {
+        "id": 166,
+        "resource_uri": "/v2/categories/166",
+        "resource_type": "category"
+      },
+      "custom": false,
+      "other": false,
+      "is_deleted": false
+    },
+    {
+      "id": 203,
+      "resource_uri": "/v2/categories/203",
+      "resource_type": "category",
+      "name": "Maintenance bureaux",
+      "parent": {
+        "id": 166,
+        "resource_uri": "/v2/categories/166",
+        "resource_type": "category"
+      },
+      "custom": false,
+      "other": false,
+      "is_deleted": false
+    },
+    {
+      "id": 202,
+      "resource_uri": "/v2/categories/202",
+      "resource_type": "category",
+      "name": "Publicité",
+      "parent": {
+        "id": 166,
+        "resource_uri": "/v2/categories/166",
+        "resource_type": "category"
+      },
+      "custom": false,
+      "other": false,
+      "is_deleted": false
+    },
+    {
+      "id": 198,
+      "resource_uri": "/v2/categories/198",
+      "resource_type": "category",
+      "name": "Billets d'avion",
+      "parent": {
+        "id": 165,
+        "resource_uri": "/v2/categories/165",
+        "resource_type": "category"
+      },
+      "custom": false,
+      "other": false,
+      "is_deleted": false
+    },
+    {
+      "id": 197,
+      "resource_uri": "/v2/categories/197",
+      "resource_type": "category",
+      "name": "Billets de train",
+      "parent": {
+        "id": 165,
+        "resource_uri": "/v2/categories/165",
+        "resource_type": "category"
+      },
+      "custom": false,
+      "other": false,
+      "is_deleted": false
+    },
+    {
+      "id": 196,
+      "resource_uri": "/v2/categories/196",
+      "resource_type": "category",
+      "name": "Transports en commun",
+      "parent": {
+        "id": 165,
+        "resource_uri": "/v2/categories/165",
+        "resource_type": "category"
+      },
+      "custom": false,
+      "other": false,
+      "is_deleted": false
+    },
+    {
+      "id": 195,
+      "resource_uri": "/v2/categories/195",
+      "resource_type": "category",
+      "name": "Banque - Autres",
+      "parent": {
+        "id": 164,
+        "resource_uri": "/v2/categories/164",
+        "resource_type": "category"
+      },
+      "custom": false,
+      "other": false,
+      "is_deleted": false
+    },
+    {
+      "id": 194,
+      "resource_uri": "/v2/categories/194",
+      "resource_type": "category",
+      "name": "Hypothèque",
+      "parent": {
+        "id": 164,
+        "resource_uri": "/v2/categories/164",
+        "resource_type": "category"
+      },
+      "custom": false,
+      "other": false,
+      "is_deleted": false
+    },
+    {
+      "id": 192,
+      "resource_uri": "/v2/categories/192",
+      "resource_type": "category",
+      "name": "Epargne",
+      "parent": {
+        "id": 164,
+        "resource_uri": "/v2/categories/164",
+        "resource_type": "category"
+      },
+      "custom": false,
+      "other": false,
+      "is_deleted": false
+    },
+    {
+      "id": 191,
+      "resource_uri": "/v2/categories/191",
+      "resource_type": "category",
+      "name": "Débit mensuel carte",
+      "parent": {
+        "id": 164,
+        "resource_uri": "/v2/categories/164",
+        "resource_type": "category"
+      },
+      "custom": false,
+      "other": false,
+      "is_deleted": false
+    },
+    {
+      "id": 188,
+      "resource_uri": "/v2/categories/188",
+      "resource_type": "category",
+      "name": "Alimentation - Autres",
+      "parent": {
+        "id": 168,
+        "resource_uri": "/v2/categories/168",
+        "resource_type": "category"
+      },
+      "custom": false,
+      "other": false,
+      "is_deleted": false
+    },
+    {
+      "id": 186,
+      "resource_uri": "/v2/categories/186",
+      "resource_type": "category",
+      "name": "Achats & Shopping - Autres",
+      "parent": {
+        "id": 162,
+        "resource_uri": "/v2/categories/162",
+        "resource_type": "category"
+      },
+      "custom": false,
+      "other": false,
+      "is_deleted": false
+    },
+    {
+      "id": 184,
+      "resource_uri": "/v2/categories/184",
+      "resource_type": "category",
+      "name": "High Tech",
+      "parent": {
+        "id": 162,
+        "resource_uri": "/v2/categories/162",
+        "resource_type": "category"
+      },
+      "custom": false,
+      "other": false,
+      "is_deleted": false
+    },
+    {
+      "id": 183,
+      "resource_uri": "/v2/categories/183",
+      "resource_type": "category",
+      "name": "Cadeaux",
+      "parent": {
+        "id": 162,
+        "resource_uri": "/v2/categories/162",
+        "resource_type": "category"
+      },
+      "custom": false,
+      "other": false,
+      "is_deleted": false
+    },
+    {
+      "id": 180,
+      "resource_uri": "/v2/categories/180",
+      "resource_type": "category",
+      "name": "Internet",
+      "parent": {
+        "id": 171,
+        "resource_uri": "/v2/categories/171",
+        "resource_type": "category"
+      },
+      "custom": false,
+      "other": false,
+      "is_deleted": false
+    },
+    {
+      "id": 171,
+      "resource_uri": "/v2/categories/171",
+      "resource_type": "category",
+      "name": "Abonnements",
+      "parent": null,
+      "custom": false,
+      "other": false,
+      "is_deleted": false
+    },
+    {
+      "id": 170,
+      "resource_uri": "/v2/categories/170",
+      "resource_type": "category",
+      "name": "Loisirs & Sorties",
+      "parent": null,
+      "custom": false,
+      "other": false,
+      "is_deleted": false
+    },
+    {
+      "id": 168,
+      "resource_uri": "/v2/categories/168",
+      "resource_type": "category",
+      "name": "Alimentation & Restau.",
+      "parent": null,
+      "custom": false,
+      "other": false,
+      "is_deleted": false
+    },
+    {
+      "id": 167,
+      "resource_uri": "/v2/categories/167",
+      "resource_type": "category",
+      "name": "Scolarité & Enfants",
+      "parent": null,
+      "custom": false,
+      "other": false,
+      "is_deleted": false
+    },
+    {
+      "id": 166,
+      "resource_uri": "/v2/categories/166",
+      "resource_type": "category",
+      "name": "Dépenses pro",
+      "parent": null,
+      "custom": false,
+      "other": false,
+      "is_deleted": false
+    },
+    {
+      "id": 165,
+      "resource_uri": "/v2/categories/165",
+      "resource_type": "category",
+      "name": "Auto & Transports",
+      "parent": null,
+      "custom": false,
+      "other": false,
+      "is_deleted": false
+    },
+    {
+      "id": 164,
+      "resource_uri": "/v2/categories/164",
+      "resource_type": "category",
+      "name": "Banque",
+      "parent": null,
+      "custom": false,
+      "other": false,
+      "is_deleted": false
+    },
+    {
+      "id": 163,
+      "resource_uri": "/v2/categories/163",
+      "resource_type": "category",
+      "name": "Santé",
+      "parent": null,
+      "custom": false,
+      "other": false,
+      "is_deleted": false
+    },
+    {
+      "id": 162,
+      "resource_uri": "/v2/categories/162",
+      "resource_type": "category",
+      "name": "Achats & Shopping",
+      "parent": null,
+      "custom": false,
+      "other": false,
+      "is_deleted": false
+    },
+    {
+      "id": 161,
+      "resource_uri": "/v2/categories/161",
+      "resource_type": "category",
+      "name": "Logement",
+      "parent": null,
+      "custom": false,
+      "other": false,
+      "is_deleted": false
+    },
+    {
+      "id": 160,
+      "resource_uri": "/v2/categories/160",
+      "resource_type": "category",
+      "name": "Divers",
+      "parent": null,
+      "custom": false,
+      "other": false,
+      "is_deleted": false
+    },
+    {
+      "id": 159,
+      "resource_uri": "/v2/categories/159",
+      "resource_type": "category",
+      "name": "Impôts & Taxes",
+      "parent": null,
+      "custom": false,
+      "other": false,
+      "is_deleted": false
+    },
+    {
+      "id": 90,
+      "resource_uri": "/v2/categories/90",
+      "resource_type": "category",
+      "name": "Dépenses pro - Autres",
+      "parent": {
+        "id": 166,
+        "resource_uri": "/v2/categories/166",
+        "resource_type": "category"
+      },
+      "custom": false,
+      "other": false,
+      "is_deleted": false
+    },
+    {
+      "id": 89,
+      "resource_uri": "/v2/categories/89",
+      "resource_type": "category",
+      "name": "Remboursement emprunt",
+      "parent": {
+        "id": 164,
+        "resource_uri": "/v2/categories/164",
+        "resource_type": "category"
+      },
+      "custom": false,
+      "other": false,
+      "is_deleted": false
+    },
+    {
+      "id": 88,
+      "resource_uri": "/v2/categories/88",
+      "resource_type": "category",
+      "name": "Chèques",
+      "parent": {
+        "id": 303,
+        "resource_uri": "/v2/categories/303",
+        "resource_type": "category"
+      },
+      "custom": false,
+      "other": false,
+      "is_deleted": false
+    },
+    {
+      "id": 87,
+      "resource_uri": "/v2/categories/87",
+      "resource_type": "category",
+      "name": "Carburant",
+      "parent": {
+        "id": 165,
+        "resource_uri": "/v2/categories/165",
+        "resource_type": "category"
+      },
+      "custom": false,
+      "other": false,
+      "is_deleted": false
+    },
+    {
+      "id": 85,
+      "resource_uri": "/v2/categories/85",
+      "resource_type": "category",
+      "name": "Retraits",
+      "parent": {
+        "id": 303,
+        "resource_uri": "/v2/categories/303",
+        "resource_type": "category"
+      },
+      "custom": false,
+      "other": false,
+      "is_deleted": false
+    },
+    {
+      "id": 84,
+      "resource_uri": "/v2/categories/84",
+      "resource_type": "category",
+      "name": "Auto & Transports - Autres",
+      "parent": {
+        "id": 165,
+        "resource_uri": "/v2/categories/165",
+        "resource_type": "category"
+      },
+      "custom": false,
+      "other": false,
+      "is_deleted": false
+    },
+    {
+      "id": 83,
+      "resource_uri": "/v2/categories/83",
+      "resource_type": "category",
+      "name": "Restaurants",
+      "parent": {
+        "id": 168,
+        "resource_uri": "/v2/categories/168",
+        "resource_type": "category"
+      },
+      "custom": false,
+      "other": false,
+      "is_deleted": false
+    },
+    {
+      "id": 80,
+      "resource_uri": "/v2/categories/80",
+      "resource_type": "category",
+      "name": "Intérêts",
+      "parent": {
+        "id": 2,
+        "resource_uri": "/v2/categories/2",
+        "resource_type": "category"
+      },
+      "custom": false,
+      "other": false,
+      "is_deleted": false
+    },
+    {
+      "id": 79,
+      "resource_uri": "/v2/categories/79",
+      "resource_type": "category",
+      "name": "Frais bancaires",
+      "parent": {
+        "id": 164,
+        "resource_uri": "/v2/categories/164",
+        "resource_type": "category"
+      },
+      "custom": false,
+      "other": false,
+      "is_deleted": false
+    },
+    {
+      "id": 78,
+      "resource_uri": "/v2/categories/78",
+      "resource_type": "category",
+      "name": "Virements",
+      "parent": {
+        "id": 303,
+        "resource_uri": "/v2/categories/303",
+        "resource_type": "category"
+      },
+      "custom": false,
+      "other": false,
+      "is_deleted": false
+    },
+    {
+      "id": 3,
+      "resource_uri": "/v2/categories/3",
+      "resource_type": "category",
+      "name": "Autres rentrées",
+      "parent": {
+        "id": 2,
+        "resource_uri": "/v2/categories/2",
+        "resource_type": "category"
+      },
+      "custom": false,
+      "other": false,
+      "is_deleted": false
+    },
+    {
+      "id": 2,
+      "resource_uri": "/v2/categories/2",
+      "resource_type": "category",
+      "name": "Entrées d'argent",
+      "parent": null,
+      "custom": false,
+      "other": false,
+      "is_deleted": false
+    },
+    {
+      "id": 1,
+      "resource_uri": "/v2/categories/1",
+      "resource_type": "category",
+      "name": "A catégoriser",
+      "parent": {
+        "id": 160,
+        "resource_uri": "/v2/categories/160",
+        "resource_type": "category"
+      },
+      "custom": false,
+      "other": false,
+      "is_deleted": false
+    },
+    {
+      "id": 309,
+      "resource_uri": "/v2/categories/309",
+      "resource_type": "category",
+      "name": "Péage",
+      "parent": {
+        "id": 165,
+        "resource_uri": "/v2/categories/165",
+        "resource_type": "category"
+      },
+      "custom": false,
+      "other": false,
+      "is_deleted": false
+    }
+  ],
+  "pagination": {
+    "previous_uri": null,
+    "next_uri": null
+  }
+}
