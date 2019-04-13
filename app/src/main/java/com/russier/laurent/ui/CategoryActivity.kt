@@ -1,9 +1,10 @@
-package com.russier.laurent
+package com.russier.laurent.ui
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
+import com.russier.laurent.R
 
-class MainActivity : AppCompatActivity() {
+class CategoryActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
