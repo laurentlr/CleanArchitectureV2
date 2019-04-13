@@ -3,8 +3,9 @@ package com.russier.laurent.data
 import com.russier.laurent.domain.Category
 import com.russier.laurent.domain.CategoryRepository
 import io.reactivex.Single
+import javax.inject.Inject
 
-class CategoryRepositoryImpl(
+class CategoryRepositoryImpl @Inject constructor(
     private val categoryService: CategoryService,
     private val categoryMapper: CategoryMapper
 ) : CategoryRepository {

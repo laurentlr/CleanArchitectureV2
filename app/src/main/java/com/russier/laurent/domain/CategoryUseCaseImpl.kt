@@ -1,8 +1,9 @@
 package com.russier.laurent.domain
 
 import io.reactivex.Single
+import javax.inject.Inject
 
-class CategoryUseCaseImpl(
+class CategoryUseCaseImpl @Inject constructor(
     private val repository: CategoryRepository
 ) : CategoryUseCase {
 
