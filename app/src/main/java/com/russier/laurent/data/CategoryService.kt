@@ -5,6 +5,6 @@ import retrofit2.http.GET
 
 interface CategoryService {
 
-    @GET("/categories.json")
+    @GET("categories.json")
     fun fetchCategories(): Single<JsonCategories>
 }
