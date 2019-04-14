@@ -10,6 +10,7 @@ import com.russier.laurent.domain.Category
 import com.russier.laurent.injection.ComponentAccessor
 import com.russier.laurent.injection.DaggerPresenterComponent
 import com.russier.laurent.injection.PresenterModule
+import com.russier.laurent.ui.subcategory.SubCategoriesActivity
 import javax.inject.Inject
 
 class CategoryActivity : AppCompatActivity(), CategoryView {
@@ -17,16 +18,9 @@ class CategoryActivity : AppCompatActivity(), CategoryView {
     @Inject
     lateinit var presenter: CategoryPresenter
     private lateinit var recycler: RecyclerView
-    private val adapter = CategoryAdapter()
+    private lateinit var adapter: CategoryAdapter
 
     override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
-        recycler = findViewById(R.id.recycler)
-        recycler.layoutManager = LinearLayoutManager(this)
-        recycler.setHasFixedSize(true)
-        recycler.adapter = adapter
-
         DaggerPresenterComponent
             .builder()
             .domainComponent((applicationContext as ComponentAccessor).domainComponent())
@@ -34,7 +28,19 @@ class CategoryActivity : AppCompatActivity(), CategoryView {
             .build()
             .inject(this)
 
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_main)
+        adapter = CategoryAdapter(presenter)
+        recycler = findViewById(R.id.recycler)
+        recycler.layoutManager = LinearLayoutManager(this)
+        recycler.setHasFixedSize(true)
+        recycler.adapter = adapter
+
         presenter.onViewReady()
+    }
+
+    override fun navigateToSubCategory(categoryId: String) {
+        SubCategoriesActivity.launch(this, categoryId)
     }
 
     override fun onDestroy() {

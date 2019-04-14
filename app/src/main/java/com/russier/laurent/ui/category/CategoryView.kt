@@ -7,4 +7,6 @@ interface CategoryView {
     fun displayCategories(categories: List<Category>)
 
     fun displayError()
+
+    fun navigateToSubCategory(categoryId: String)
 }

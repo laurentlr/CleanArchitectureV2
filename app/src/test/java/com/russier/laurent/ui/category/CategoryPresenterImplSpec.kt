@@ -64,5 +64,15 @@ object CategoryPresenterImplSpec : Spek({
                 }
             }
         }
+
+        describe("on click category") {
+            beforeEach {
+                presenter.onClickCategory("123")
+            }
+
+            it("navigate to sub category") {
+                verify(view).navigateToSubCategory("123")
+            }
+        }
     }
 })

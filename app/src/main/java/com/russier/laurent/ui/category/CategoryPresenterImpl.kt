@@ -27,4 +27,9 @@ class CategoryPresenterImpl @Inject constructor(
     override fun onDestroy() {
         disposable.clear()
     }
+
+    override fun onClickCategory(categoryId: String) {
+        // this should use a router instead of passing through the view
+        view.navigateToSubCategory(categoryId)
+    }
 }

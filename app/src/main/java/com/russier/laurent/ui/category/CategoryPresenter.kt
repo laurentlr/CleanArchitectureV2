@@ -1,6 +1,6 @@
 package com.russier.laurent.ui.category
 
-interface CategoryPresenter {
+interface CategoryPresenter : CategoryClickListener {
 
     fun onViewReady()
 
