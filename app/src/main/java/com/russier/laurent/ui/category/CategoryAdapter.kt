@@ -1,4 +1,4 @@
-package com.russier.laurent.ui
+package com.russier.laurent.ui.category
 
 import android.view.LayoutInflater
 import android.view.View

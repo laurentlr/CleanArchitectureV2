@@ -1,8 +1,8 @@
-package com.russier.laurent.ui
+package com.russier.laurent.ui.category
 
 import com.russier.laurent.domain.Category
 
-interface CategoriesView {
+interface CategoryView {
 
     fun displayCategories(categories: List<Category>)
 

@@ -1,4 +1,4 @@
-package com.russier.laurent.ui
+package com.russier.laurent.ui.category
 
 import com.russier.laurent.domain.Category
 import com.russier.laurent.domain.CategoryUseCase
@@ -11,7 +11,7 @@ import org.mockito.Mockito.verify
 import org.spekframework.spek2.Spek
 import org.spekframework.spek2.style.specification.describe
 
-object CategoriesPresenterImplSpec : Spek({
+object CategoryPresenterImplSpec : Spek({
 
     beforeEachTest {
         RxAndroidPlugins.setInitMainThreadSchedulerHandler { Schedulers.trampoline() }
@@ -23,12 +23,12 @@ object CategoriesPresenterImplSpec : Spek({
 
     describe("a presenter") {
         lateinit var useCase: CategoryUseCase
-        lateinit var view: CategoriesView
-        lateinit var presenter: CategoriesPresenterImpl
+        lateinit var view: CategoryView
+        lateinit var presenter: CategoryPresenterImpl
         beforeEach {
             useCase = mock(CategoryUseCase::class.java)
-            view = mock(CategoriesView::class.java)
-            presenter = CategoriesPresenterImpl(useCase, view)
+            view = mock(CategoryView::class.java)
+            presenter = CategoryPresenterImpl(useCase, view)
         }
 
         describe("categories") {

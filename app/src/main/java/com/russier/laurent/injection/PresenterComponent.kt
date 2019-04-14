@@ -1,6 +1,6 @@
 package com.russier.laurent.injection
 
-import com.russier.laurent.ui.CategoryActivity
+import com.russier.laurent.ui.category.CategoryActivity
 import dagger.Component
 
 @PresenterScope

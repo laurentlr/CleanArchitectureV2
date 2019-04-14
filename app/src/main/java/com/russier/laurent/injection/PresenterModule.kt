@@ -1,24 +1,24 @@
 package com.russier.laurent.injection
 
-import com.russier.laurent.ui.CategoriesPresenter
-import com.russier.laurent.ui.CategoriesPresenterImpl
-import com.russier.laurent.ui.CategoriesView
+import com.russier.laurent.ui.category.CategoryPresenter
+import com.russier.laurent.ui.category.CategoryPresenterImpl
+import com.russier.laurent.ui.category.CategoryView
 import dagger.Binds
 import dagger.Module
 import dagger.Provides
 
 @Module(includes = [PresenterModule.Declaration::class])
-class PresenterModule constructor(private val view: CategoriesView) {
+class PresenterModule constructor(private val view: CategoryView) {
 
     @PresenterScope
     @Provides
-    internal fun provideView(): CategoriesView = view
+    internal fun provideView(): CategoryView = view
 
     @Module
     interface Declaration {
 
         @PresenterScope
         @Binds
-        fun bindCategoriesPresenter(categoriesPresenterImpl: CategoriesPresenterImpl): CategoriesPresenter
+        fun bindCategoriesPresenter(categoriesPresenterImpl: CategoryPresenterImpl): CategoryPresenter
     }
 }

@@ -1,4 +1,4 @@
-package com.russier.laurent.ui
+package com.russier.laurent.ui.category
 
 import android.os.Bundle
 import android.widget.Toast
@@ -12,10 +12,10 @@ import com.russier.laurent.injection.DaggerPresenterComponent
 import com.russier.laurent.injection.PresenterModule
 import javax.inject.Inject
 
-class CategoryActivity : AppCompatActivity(), CategoriesView {
+class CategoryActivity : AppCompatActivity(), CategoryView {
 
     @Inject
-    lateinit var presenter: CategoriesPresenter
+    lateinit var presenter: CategoryPresenter
     private lateinit var recycler: RecyclerView
     private val adapter = CategoryAdapter()
 
