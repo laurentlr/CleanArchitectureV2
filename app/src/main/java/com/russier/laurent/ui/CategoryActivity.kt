@@ -3,6 +3,8 @@ package com.russier.laurent.ui
 import android.os.Bundle
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
+import androidx.recyclerview.widget.LinearLayoutManager
+import androidx.recyclerview.widget.RecyclerView
 import com.russier.laurent.R
 import com.russier.laurent.domain.Category
 import com.russier.laurent.injection.ComponentAccessor
@@ -14,10 +16,16 @@ class CategoryActivity : AppCompatActivity(), CategoriesView {
 
     @Inject
     lateinit var presenter: CategoriesPresenter
+    private lateinit var recycler: RecyclerView
+    private val adapter = CategoryAdapter()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+        recycler = findViewById(R.id.recycler)
+        recycler.layoutManager = LinearLayoutManager(this)
+        recycler.setHasFixedSize(true)
+        recycler.adapter = adapter
 
         DaggerPresenterComponent
             .builder()
@@ -35,9 +43,7 @@ class CategoryActivity : AppCompatActivity(), CategoriesView {
     }
 
     override fun displayCategories(categories: List<Category>) {
-        Toast
-            .makeText(this, "${categories.size}", Toast.LENGTH_SHORT)
-            .show()
+        adapter.setItems(categories)
     }
 
     override fun displayError() {
