@@ -17,8 +17,8 @@ object CategoryMapperSpec : Spek({
             lateinit var jsonCategories: List<JsonCategory>
             beforeEach {
                 jsonCategories = listOf(
-                    JsonCategory(123, "cat1"),
-                    JsonCategory(456, "cat2")
+                    JsonCategory(123, "cat1", null),
+                    JsonCategory(456, "cat2", JsonParent(444))
                 )
             }
 
@@ -32,8 +32,10 @@ object CategoryMapperSpec : Spek({
                     assertThat(categories).hasSize(2)
                     assertThat(categories[0].id).isEqualTo("123")
                     assertThat(categories[0].name).isEqualTo("cat1")
+                    assertThat(categories[0].parentId).isNull()
                     assertThat(categories[1].id).isEqualTo("456")
                     assertThat(categories[1].name).isEqualTo("cat2")
+                    assertThat(categories[1].parentId).isEqualTo("444")
                 }
             }
         }

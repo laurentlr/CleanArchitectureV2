@@ -8,7 +8,9 @@ import androidx.recyclerview.widget.RecyclerView
 import com.russier.laurent.R
 import com.russier.laurent.domain.Category
 
-class CategoryAdapter constructor(private val listener: CategoryClickListener) :
+class CategoryAdapter constructor(
+    private val listener: CategoryClickListener? = null
+) :
     RecyclerView.Adapter<CategoryAdapter.BaseViewHolder>() {
 
     private val categories = mutableListOf<Category>()
@@ -16,7 +18,9 @@ class CategoryAdapter constructor(private val listener: CategoryClickListener) :
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): BaseViewHolder {
         val view = LayoutInflater.from(parent.context).inflate(R.layout.category, parent, false)
         val viewHolder = BaseViewHolder(view)
-        view.setOnClickListener { listener.onClickCategory(categories[viewHolder.adapterPosition].id) }
+        listener?.let { categoryListener ->
+            view.setOnClickListener { categoryListener.onClickCategory(categories[viewHolder.adapterPosition].id) }
+        }
         return viewHolder
     }
 

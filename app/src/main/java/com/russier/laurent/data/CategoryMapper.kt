@@ -6,7 +6,7 @@ import javax.inject.Inject
 class CategoryMapper @Inject constructor() {
 
     fun transform(jsonCategories: List<JsonCategory>): List<Category> {
-        return jsonCategories.map { Category(it.id.toString(), it.name) }
+        return jsonCategories.map { Category(it.id.toString(), it.name, it.parent?.id?.toString()) }
     }
 
 }

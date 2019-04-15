@@ -27,11 +27,16 @@ object CategoryServiceSpec : Spek({
             }
 
             it("should deserialize the payload") {
+                testObserver.awaitTerminalEvent()
                 testObserver.assertComplete()
+
                 val categories = testObserver.values()[0].resources
                 assertThat(categories).hasSize(142)
                 assertThat(categories[0].id).isEqualTo(441988)
                 assertThat(categories[0].name).isEqualTo("TVA")
+                assertThat(categories[0].parent!!.id).isEqualTo(159)
+
+                assertThat(categories.find { it.id == 315 }!!.parent).isNull()
             }
         }
     }

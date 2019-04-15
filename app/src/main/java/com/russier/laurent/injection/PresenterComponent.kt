@@ -1,6 +1,7 @@
 package com.russier.laurent.injection
 
 import com.russier.laurent.ui.category.CategoryActivity
+import com.russier.laurent.ui.subcategory.SubCategoriesActivity
 import dagger.Component
 
 @PresenterScope
@@ -8,4 +9,6 @@ import dagger.Component
 interface PresenterComponent {
 
     fun inject(categoryActivity: CategoryActivity)
+
+    fun inject(categoryActivity: SubCategoriesActivity)
 }

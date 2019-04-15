@@ -1,6 +1,7 @@
 package com.russier.laurent.data
 
 import com.russier.laurent.domain.Category
+import com.russier.laurent.domain.CategoryRepository
 import io.reactivex.Single
 import io.reactivex.observers.TestObserver
 import org.assertj.core.api.Assertions.assertThat
@@ -12,7 +13,7 @@ import org.spekframework.spek2.style.specification.describe
 object CategoryRepositoryImplSpec : Spek({
 
     describe("a repository") {
-        lateinit var repository: CategoryRepositoryImpl
+        lateinit var repository: CategoryRepository
         lateinit var categoryService: CategoryService
         lateinit var mapper: CategoryMapper
         beforeEach {
