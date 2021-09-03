@@ -3,8 +3,8 @@ version: 0.2
 phases:
   install:
     runtime-versions:
-      android: 30
-      java: corretto11
+      android: 29
+      java: corretto8
   build:
     commands:
       - chmod +x ./gradlew
