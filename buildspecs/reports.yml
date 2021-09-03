@@ -1,0 +1,21 @@
+version: 0.2
+
+phases:
+  install:
+    runtime-versions:
+      android: 29
+      java: corretto8
+  pre_build:
+    commands:
+      - chmod +x ./gradlew
+  build:
+    commands:
+      - ./gradlew assembleDebug
+  post_build:
+    commands:
+      - ./gradlew jacocoTestReportRelease
+reports:
+  jacoco-report:
+    files:
+      - 'app/build/reports/jacoco/jacocoTestReportRelease/jacocoTestReportRelease.xml'
+    file-format: 'JACOCOXML'

@@ -1,6 +1,7 @@
 apply plugin: 'com.android.application'
 apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-kapt'
+apply from: "../jacoco.gradle"
 
 // Required as JUnit 5 doesn't support android modules out of the box.
 apply plugin: "de.mannodermaus.android-junit5"
