@@ -5,11 +5,12 @@ phases:
     runtime-versions:
       android: 29
       java: corretto8
-  build:
+  pre_build:
     commands:
       - chmod +x ./gradlew
+  build:
+    commands:
       - ./gradlew assembleDebug
-artifacts:
-  files:
-    - './android/app/build/outputs/**/*.apk'
-  discard-paths: yes
+  post_build:
+    commands:
+      - ./gradlew test

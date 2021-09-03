@@ -31,7 +31,7 @@ object CategoryMapperSpec : Spek({
 
                 it("should map json item to domain item") {
                     assertThat(categories).hasSize(2)
-                    assertThat(categories[0].id).isEqualTo("123")
+                    assertThat(categories[0].id).isEqualTo("1223")
                     assertThat(categories[0].name).isEqualTo("cat1")
                     assertThat(categories[0].parentId).isNull()
                     assertThat(categories[1].id).isEqualTo("456")
