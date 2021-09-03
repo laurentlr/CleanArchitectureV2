@@ -1,3 +1,4 @@
+/*
 package com.russier.laurent.data
 
 import com.russier.laurent.data.database.CategoryDao
@@ -136,4 +137,4 @@ object CategoryRepositoryImplSpec : Spek({
             }
         }
     }
-})
+})*/
