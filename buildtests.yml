@@ -1,0 +1,15 @@
+phases:
+  install:
+    runtime-versions:
+      android: 29
+      java: corretto8
+  pre_build:
+    commands:
+      - chmod +x ./gradlew
+  build:
+    commands:
+      - ./gradlew assembleDebug
+  post_build:
+    commands:
+      - echo "Unit Tests"
+      - ./gradlew test
