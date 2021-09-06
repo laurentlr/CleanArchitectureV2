@@ -26,8 +26,6 @@ android {
     }
 
 
-
-
     testOptions {
         junitPlatform {
             filters {
