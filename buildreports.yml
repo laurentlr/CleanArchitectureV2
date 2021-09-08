@@ -1,10 +1,6 @@
 version: 0.2
 
 phases:
-  install:
-    runtime-versions:
-      android: 30
-        java: corretto11
   pre_build:
     commands:
       - chmod +x ./gradlew
