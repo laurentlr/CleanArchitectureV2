@@ -1,22 +1,5 @@
 version: 0.2
 
-batch:
-  fast-fail: false
-  build-graph:
-    - identifier: unitTests
-      buildspec: buildtests.yml
-      env:
-        variables:
-          BUILD_ID: unitTests
-      ignore-failure: false
-
-    - identifier: buildreports
-      buildspec: buildreports.yml
-      env:
-        variables:
-          BUILD_ID: reports
-      depend-on:
-        - unitTests
 
 phases:
   install:
